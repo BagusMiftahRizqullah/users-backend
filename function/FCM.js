@@ -7,7 +7,7 @@ const sendNotification = async (deviceToken, title, body) => {
       title: title,
       body: body,
     },
-    token: deviceToken, // FCM token of the recipient device
+    token: deviceToken, // FCM token
   };
 
   try {
